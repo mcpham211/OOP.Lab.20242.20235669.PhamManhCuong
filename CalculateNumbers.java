@@ -29,5 +29,7 @@ public class CalculateNumbers {
                  "Hiệu: " + difference + "\n" +
                  "Tích: " + product + "\n" +
                  "Thương: " + division;
-
-        JOptionPane.showMes
+                 
+        JOptionPane.showMessageDialog(null, result, division, 0);
+    }
+}
